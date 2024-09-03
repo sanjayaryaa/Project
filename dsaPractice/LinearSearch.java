@@ -1,7 +1,5 @@
 package dsaPractice;
-
 import java.util.Scanner;
-
 public class LinearSearch {
 
     public static void main(String args[]){
@@ -22,9 +20,6 @@ public class LinearSearch {
         if(arr[i] == targetValue){
             System.out.println("Target Value i.e. "+targetValue+" Found at Index "+i);
         }
-
     }
-
-    }
-    
+  }  
 }
