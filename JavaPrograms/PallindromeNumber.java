@@ -1,13 +1,12 @@
-
 package JavaPrograms;
 import java.util.Scanner;
 
 public class PallindromeNumber {
-    static int rev=0;
+    static int rev;
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter your first palindrome number: ");
+        System.out.print("Enter your first palindrome number: ");
         int num = sc.nextInt();
 
         int temp =num;
